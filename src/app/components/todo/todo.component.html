@@ -3,16 +3,18 @@
 <table>
   <thead>
     <tr>
-      <th>Id</th>
-      <th>Título</th>
-      <th>Status</th>
+      <th class="width">UserId</th>
+      <th class="width">Id</th>
+      <th class="title-width">Título</th>
+      <th class="width">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let todo of listarToDos">
+      <td><strong>{{ todo.userId }}</strong></td>
       <td>{{ todo.id }}</td>
       <td>{{ todo.title }}</td>
-      <td>{{ todo.status }}</td>
+      <td>{{ todo.completed}}</td>
     </tr>
   </tbody>
 </table>

@@ -1,9 +1,11 @@
 table
 {
   border-collapse: collapse;
+  text-align: center;
 }
 thead{
   background-color: rgb(153, 187, 249);
+  height: 60px;
 }
 th{
   border: 1px solid black;
@@ -15,4 +17,10 @@ tr{
 td
 {
   border: 1px solid black;
+}
+.width{
+  width: 60px;
+}
+.title-width{
+  width: 800px;
 }

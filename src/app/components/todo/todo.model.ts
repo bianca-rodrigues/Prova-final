@@ -1,6 +1,7 @@
 export interface ToDo {
+  userId: number,
   id: number,
   title: string,
-  status: boolean
+  completed: string
 }
 
